@@ -1,0 +1,16 @@
+futures_trading/
+├── core/
+│   ├── broker/
+│   │   ├── __init__.py
+│   │   ├── base_broker.py
+│   │   └── binance.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── data_fetcher.py
+│   │   └── data_processor.py
+│   └── risk/
+│       ├── __init__.py
+│       └── risk_manager.py
+├── requirements.txt
+├── config.yaml
+└── example.py
